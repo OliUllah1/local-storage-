@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="text-center text-4xl my-5 underline">
+        <h1>Please contact me</h1>
+    </header>
+    <main class="w-1/2 mx-auto">
+        <label class="text-xl mb-3">Name</label>
+        <div>
+            <input class="w-2/4 py-2 rounded-md px-3" type="text" placeholder="Enter your Name"> 
+            <button class="bg-red-600 py-2 px-4 rounded-md font-semibold">Delete Name</button>
+            <button class="bg-green-600 py-2 px-4 rounded-md font-semibold">Send Name</button>
+        </div>
+        <label class="text-xl mb-3" for="">Email</label>
+        <div>
+            <input class="w-2/4 py-2 rounded-md px-3" type="email" placeholder="Enter Your Email"> 
+            <button class="bg-red-600 py-2 px-4 rounded-md font-semibold">Delete Email</button>
+            <button class="bg-green-600 py-2 px-4 rounded-md font-semibold">Send Email</button>
+        </div>
+        <label class="text-xl mb-3" for="">Message</label>
+        <div class="flex items-center">
+            <textarea class="py-2 w-2/4 rounded-md px-3 mr-1" id="" cols="30" rows="1" placeholder="Enter Your Message"></textarea>
+            <button class="bg-red-600 py-2 px-4 rounded-md font-semibold">Delete Message</button>
+            <button class="bg-green-600 py-2 px-4 rounded-md font-semibold">Send Message</button>
+        </div>
+        <div class="flex justify-center">
+            <button class="my-5 bg-red-400 px-8 py-2 rounded-md">Reset</button>
+        </div>
+    </main>
+    <script src="js/app3.js"></script>
+</body>
+</html>
